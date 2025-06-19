@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Hot Reloading (Fast Refresh)
+This project uses React Fast Refresh for hot updates during development. Changes to your React components will update in real time without a full page reload.
+
+- Just run `npm start` and edit your files in `src/`.
+- Hot updates are enabled by default with Create React App.
+
+## D3.js Usage
+D3.js is installed and ready to use. You can import it in your components:
+```js
+import * as d3 from 'd3';
+```
